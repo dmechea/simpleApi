@@ -1,2 +1,4 @@
 const port = process.env.PORT || 3000;
-module.exports = { port };
+const dbName = process.env.DB_NAME || "my_db";
+
+module.exports = { port, dbName };
