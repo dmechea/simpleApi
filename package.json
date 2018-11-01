@@ -9,7 +9,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.8"
   },
   "devDependencies": {
     "axios": "^0.18.0",
