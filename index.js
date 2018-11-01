@@ -2,8 +2,6 @@
 const express = require("express");
 const app = express();
 
-// Mongoose
-
 const { port } = require("./config");
 
 // Importing our routes functions
