@@ -2,10 +2,8 @@ const fetchDummyResponse = {
   status: "success!",
   dataFetched: [
     {
-      _id: "5bda378a97b25311836364d0",
       name: "Dan",
-      favouriteFruit: "kiwi",
-      __v: 0
+      favouriteFruit: "kiwi"
     }
   ]
 };
@@ -13,20 +11,16 @@ const fetchDummyResponse = {
 const insertDummyResponse = {
   status: "success!",
   dataInserted: {
-    _id: "5bda378a97b25311836364d0",
     name: "Dan",
-    favouriteFruit: "kiwi",
-    __v: 0
+    favouriteFruit: "kiwi"
   }
 };
 
 const deleteDummyResponse = {
   status: "success!",
   dataRemoved: {
-    _id: "5bda378a97b25311836364d0",
     name: "Dan",
-    favouriteFruit: "kiwi",
-    __v: 0
+    favouriteFruit: "kiwi"
   }
 };
 
