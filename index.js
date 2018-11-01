@@ -16,6 +16,7 @@ app.get("/fruit", getFromDatabase);
 app.post("/fruit", addToDatabase);
 app.delete("/fruit", deleteFromDatabase);
 
+// Listening on config.port
 app.listen(port, () => {
   console.log(`Listening on port ${port}!`);
 });
